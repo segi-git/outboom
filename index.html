@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container d-flex align-items-center h-100"> 
+      <!-- d-flex to implment flexbox in bootstrap container not including full page thats why we use height h-100-->
+      <!--
+      align items will align the the txt and iteam in center but it will not work if we will not make height to 100%
+         because it is not taking full height of page so make sure use h-100 in bootstrap to make height 100 -->
+      <div class="row">
+        <header class="text-center col-12">
+        <h1 class="text-uppercase "> <strong>the  biggest Startup event ever </strong> </h1>
+      </header>
+       <section class="text-center col-12"> <!--we are using col-12 here so it will cover whole area  -->
+        <div class="buffer col-12">
+          <!-- buffer will make distance between header and section we wll set height of buffer to
+          10rem so it will create buffer between two parts -->
+        </div>
+        
+        <hr>
+        <a href="https://mailchi.mp/4cb9bb109101/startup">
+          <button class="btn btn-primary btn-xl">find out more</button>
+        </a>
+      </section>  
+      </div>
+    </div>
+
+  </body>
+</html>
